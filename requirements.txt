@@ -1,38 +1,28 @@
 # ============================================================
-# 依赖说明
+# BM25 + BERT Chinese QA System - Requirements
 # ============================================================
-# 论文实验环境：Python 3.11.14, Windows 10
-# 论文中 PyTorch 版本为 v2.11.0.dev20260110+cu128（开发预览版）
-# 以下为建议稳定版，可根据实际 CUDA 版本调整
-# PyTorch 安装请参考官网：https://pytorch.org/get-started/locally/
-# ============================================================
-
-# ---------- 核心依赖 ----------
-# PyTorch: 论文使用 cu128 开发版，建议安装稳定版 2.1+
-# 安装命令示例（CUDA 12.1）:
+# Python 3.11 recommended
+#
+# Important: PyTorch should be installed separately
+# with the correct CUDA version from the official index.
+#
+# Example for CUDA 12.1:
 #   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-torch>=2.1.0
+# ============================================================
 
-# Cross-Encoder BERT 重排序引擎
-sentence-transformers==5.2.0
+# Core dependencies
+jieba>=0.42.1
+rank-bm25>=0.2.2
+sentence-transformers>=3.0.0
+streamlit>=1.30.0
 
-# BM25 稀疏检索
-rank-bm25==0.2.2
-
-# 中文分词
-jieba==0.42.1
-
-# Web 可视化交互界面
-streamlit==1.53.0
-
-# ---------- 数据处理 ----------
+# Data processing
 pandas>=2.0.0
 numpy>=1.24.0
 openpyxl>=3.1.0
 
-# ---------- 可视化 ----------
+tqdm>=4.65.0
+
+# Visualization (optional)
 matplotlib>=3.7.0
 seaborn>=0.12.0
-
-# ---------- 工具 ----------
-tqdm>=4.65.0
