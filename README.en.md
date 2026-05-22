@@ -6,7 +6,7 @@
 
 **"BM25 Coarse Ranking + Cross-Encoder BERT Reranking"**
 
-> ⚠️ **Project Note**: This repository is an archive of the author's graduation project for a **second bachelor's degree ** in Computer Science and Technology. Only core code is uploaded. The author has a non-traditional educational background with limited formal CS training. Please understand any limitations in code quality or engineering practices.
+> ⚠️ **Project Note**: This repository is an archive of the author's graduation project for a second bachelor's degree in Computer Science and Technology. Only core code is uploaded. The author has a non-traditional educational background with limited formal CS training. Please understand any limitations in code quality or engineering practices.
 
 A practical engineering project that achieves real-time semantic retrieval over million-scale Chinese documents on consumer-grade hardware.
 
