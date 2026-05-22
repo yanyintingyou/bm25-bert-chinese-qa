@@ -6,7 +6,7 @@
 
 **"BM25 Coarse Ranking + Cross-Encoder BERT Reranking"**
 
-> ⚠️ **Project Note**: This repository is an archive of the author's graduation project for a **second bachelor's degree (self-taught / 自考助学本科二学历)** in Computer Science and Technology. Only core code is uploaded. The author has a non-traditional educational background with limited formal CS training. Please understand any limitations in code quality or engineering practices.
+> ⚠️ **Project Note**: This repository is an archive of the author's graduation project for a **second bachelor's degree ** in Computer Science and Technology. Only core code is uploaded. The author has a non-traditional educational background with limited formal CS training. Please understand any limitations in code quality or engineering practices.
 
 A practical engineering project that achieves real-time semantic retrieval over million-scale Chinese documents on consumer-grade hardware.
 
@@ -78,19 +78,6 @@ streamlit run work_code/app.py
 ```
 
 > **Note**: The full T2Ranking dataset (~2.3 million passages) is large and not included in this repository. Please download `collection.tsv` and related files yourself.
-
-## Project Background
-
-This is an archival repository of the author's graduation project for a **second bachelor's degree in Computer Science and Technology (self-taught program)**.
-
-As a non-traditional, part-time self-taught student, the author has relatively limited systematic formal computer science training. The code may have shortcomings in engineering standards, robustness, and implementation details. This repository is uploaded primarily for personal learning outcome archiving and technical exchange. **Your understanding is greatly appreciated**.
-
-If you are interested in practical "traditional retrieval + lightweight neural reranking" architectures, feel free to reference, critique, or improve upon it.
-
-## References
-
-- Graduation Thesis: 《基于BM25的中文问答系统检索方法研究与实现》
-- T2Ranking: A Large-scale Chinese Benchmark for Passage Ranking (Xie et al., 2023)
 
 ## License
 
